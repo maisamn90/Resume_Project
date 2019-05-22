@@ -19,6 +19,10 @@
     background-color:#525252;
 }
 
+.text-oreng{
+    color:#e67e22;
+}
+
 /*---- header----*/
 header {
     margin: 0;
@@ -154,4 +158,50 @@ footer ul li a:hover{
 .download-pdf:hover {
     color:#e67e22;
 }
+
+/*---- Home Section ----*/
+section h3{
+    font-family:"Exo", sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #777;
+    margin: 0 0 16px 0;
+}
+
+section .personal-info{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.personal-info strong, .personal-info span{
+    border:none;
+    font-family:"Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.personal-info strong{ 
+    text-transform: uppercase;
+}
+
+section .about{
+    padding: 20px;
+}
+
+section p{
+    font-family:"Roboto", sans-serif;
+    font-size: 14px;
+    color: #555;
+}
+
+.about h4 {
+    font-family:"Roboto", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+
+
 
