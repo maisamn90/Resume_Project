@@ -201,6 +201,20 @@ section p{
     text-transform: uppercase;
 }
 
+/*---- Resume Section ----*/
+section .progress {
+    height: 25px;
+}
+.skill-bar-title{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 20px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    line-height: 25px;
+    text-align: left;
+    width: fit-content;
+}
 
 
 
