@@ -175,6 +175,24 @@ section .personal-info{
     padding: 20px;
 }
 
+section .work-history{
+    background-color: #9b59b6;
+    padding: 20px;
+    color: #fafafa;
+    position: relative;
+}
+
+section .work-history h3{
+    color: #fafafa;
+}
+
+section .work-history .company-name{
+    color: #fafafa;
+    margin-bottom: 0;
+}
+
+
+
 .personal-info strong, .personal-info span{
     border:none;
     font-family:"Roboto", sans-serif;
@@ -216,6 +234,53 @@ section .progress {
     width: fit-content;
 }
 
+.time-line-border {
+    border-left: 1px solid #fafafa;
+}
 
 
+.time-line-desc ul{
+    margin-left: -72px;
+    list-style:none;
+}
 
+.time-line-desc ul li{
+    margin-top: 20px;
+    line-height: 25px;
+    position:relative;
+        
+}
+
+.time-line-desc .date{
+    font-style: normal;
+    font-size: 12px;
+    font-family:"Exo", sans-serif;
+}
+
+.company-name {
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+}
+
+.work-title {
+    font-style: normal;
+    font-size: 13px;
+}
+
+
+.time-line-desc ul li i{
+    position: absolute;
+    left: -21px;
+    top: 9px;
+    font-size: 12px;
+}
+@media (max-width:1024px)
+{
+.time-line-desc ul li i {
+    position: absolute;
+    left: -19px;
+    top: 9px;
+    font-size: 12px;
+}
+}
